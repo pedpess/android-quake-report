@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_a2a33683e900bcb275ee4f0c6e16e407aa688a6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_a07cdeece3f588c501d3767ff635c04ef9e4c58b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_277ddbbe2ed857cdbf4599f63e35a12d96e461fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_eafe9e117f4ef30ffbaddc46df3aa6dcfbfc73e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="da46b81c6999b291a2aecbf909ac196f3b5473f9">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_052cb12b70e63d296141f237501209dab61b9505/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_1bb0f0b04a72afa7cbad4eb5ce64838da6cb145a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="320f8c88323d1ccc29616b234ced1f69bcc8371d">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_945fdf817a323538bc3872aab55571d44d4f60e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_c35a5db2f13482241452880043cb28c8d3e5acee/classes.dex" />
+    </item>
+
+</items>
