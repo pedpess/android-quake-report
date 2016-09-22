@@ -52,10 +52,10 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
         magnitudeCircle.setColor(magnitudeColor);
 
+        String originalLocation = currentEarthquake.getLocation();
 
         String primaryLocation;
         String locationOffset;
-        String originalLocation = currentEarthquake.getLocation();
 
 
         if (originalLocation.contains(LOCATION_SEPARATOR)) {
@@ -73,15 +73,16 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
         TextView primaryLocationView = (TextView) listItemView.findViewById(R.id.primary_location);
 
-        primaryLocationView.setText(currentEarthquake.getLocation());
+        primaryLocationView.setText(primaryLocation);
 
 
         TextView locationOffsetView = (TextView) listItemView.findViewById(R.id.location_offset);
 
-        locationOffsetView.setText((CharSequence) locationOffsetView);
+        locationOffsetView.setText(locationOffset);
 
 
         Date dateObject = new Date(currentEarthquake.getDate());
+
 
         TextView dateView = (TextView) listItemView.findViewById(R.id.date);
 
