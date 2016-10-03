@@ -27,6 +27,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
+
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +46,8 @@ public class EarthquakeActivity extends AppCompatActivity
 
     private EarthquakeAdapter mAdapter;
 
+    private TextView mEmptyStateTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i(LOG_TAG, "TEST: Earthquake Activity onCreate() called");
@@ -52,6 +57,9 @@ public class EarthquakeActivity extends AppCompatActivity
 
         // Find a reference to the {@link ListView} in the layout
         ListView earthquakeListView = (ListView) findViewById(R.id.list);
+
+        mEmptyStateTextView = (TextView) findViewById(R.id.empty_view);
+        earthquakeListView.setEmptyView(mEmptyStateTextView);
 
         // Create a new {@link ArrayAdapter} of earthquakes
         mAdapter = new EarthquakeAdapter(this, new ArrayList<Earthquake>());
@@ -91,6 +99,8 @@ public class EarthquakeActivity extends AppCompatActivity
     @Override
     public void onLoadFinished(Loader<List<Earthquake>> loader, List<Earthquake> earthquakes) {
         Log.i(LOG_TAG, "TEST: onLoadFinished() called ...");
+
+        mEmptyStateTextView.setText(R.string.no_earthquakes);
 
         mAdapter.clear();
 
