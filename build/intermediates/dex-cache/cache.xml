@@ -3,30 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/home/pedro/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_1bb0f0b04a72afa7cbad4eb5ce64838da6cb145a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
         <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_a2a33683e900bcb275ee4f0c6e16e407aa688a6a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="383c3e2f5da5734dc8e984d54619449c7a96fff3">
-        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_945fdf817a323538bc3872aab55571d44d4f60e3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -61,8 +43,26 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="649c9490d191d27554ad9fe0ef7edc79df5d134e">
+        sha1="c85d7e6b0e261dbaac1e2e71772f25e7ad6d48d2">
         <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_052cb12b70e63d296141f237501209dab61b9505/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_1bb0f0b04a72afa7cbad4eb5ce64838da6cb145a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="559d6432cc3833343a5375184f04710bd8557a94">
+        <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_945fdf817a323538bc3872aab55571d44d4f60e3/classes.dex" />
     </item>
     <item
         is-multidex="true"
