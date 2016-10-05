@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c85d7e6b0e261dbaac1e2e71772f25e7ad6d48d2">
+        sha1="213b8abfda516f185ca1b5e22c6e79a7b7a67cf5">
         <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_052cb12b70e63d296141f237501209dab61b9505/classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="559d6432cc3833343a5375184f04710bd8557a94">
+        sha1="795a33ed625cf1cf331ca7d1f54d650dc350d94f">
         <dex dex="/home/pedro/Dev/Android/android-quake-report/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_945fdf817a323538bc3872aab55571d44d4f60e3/classes.dex" />
     </item>
     <item
